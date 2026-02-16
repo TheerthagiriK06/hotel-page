@@ -1,0 +1,197 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+body{
+    background-color:white;    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar{
+    top: 0;
+    left: 0%;
+
+    padding: 25px 9%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color:salmon;
+     z-index: 100;
+}
+
+.navbar .logo{
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.navbar ul{
+    display: flex;
+}
+
+.navbar ul li{
+    margin-left: 35px;
+    list-style: none;
+}
+
+.navbar ul li a{
+    font-size: 20px;
+    font-weight: 300;
+    transition:all .5s ease-out;
+}
+
+.navbar ul li a:hover,
+.navbar ul li.active a {
+    color: lightblue;
+    transform: scale(1.1);
+}
+
+.home h2{
+    text-align: center;
+    margin: 25px;
+}
+
+.home{
+    width: 80%;
+    margin: auto;
+    padding: 25px;
+    border: none;
+    background-color: salmon;
+    color: black;
+    border-radius: 10px;
+    transition: all .5s ease-out;
+    box-shadow: 0 6px 6px black;
+}
+
+.home:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+.img {
+    display: flex;
+    flex-wrap: wrap;     
+    gap: 20px;            
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    padding: 25px;
+    border: none;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    transition: all .5s ease-out;
+    box-shadow: 0 6px 6px black;
+}
+
+.img h1 {
+    width: 100%;          
+    text-align: center;
+    margin: 25px 0;
+}
+
+.img .pt img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    transition: all 1.5 ease-out;
+    box-shadow: 0 6px 6px black;
+    
+}
+
+.img .pt{
+    background-color: salmon;
+    border-radius: 10px;
+    margin: 15px;
+}
+
+.img .pt img:hover{
+    transform: scale(1.1);
+}
+
+.img .pt img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    margin: 50px;
+    
+}
+
+.img .pt h4{
+    text-align: center;
+    text-decoration: wavy;
+    margin: 15px 0;
+    font-size: larger;
+}
+
+.container h2{
+    text-align: center;
+    margin: 25px;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    padding: 25px;
+    border: none;
+    background-color: salmon;
+    color: black;
+    border-radius: 10px;
+    transition: all .5s ease-out;
+    box-shadow: 0 6px 6px black;
+}
+
+.container:hover{
+    transform: scale(1.1);
+}
+
+.hotel-contact{
+    width: 80%;
+    margin: auto;
+    padding: 25px;
+    border: none;
+    border-bottom: 50px;
+    background-color: salmon;
+    color: black;
+    border-radius: 10px;
+    transition: all .5s ease-out;
+    box-shadow: 0 6px 6px black;
+}
+
+.hotel-contact h2{
+    text-align: center;
+    margin: 25px ;
+}
+
+.hotel-contact .btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: aqua;
+    padding: 25px;
+    margin: 25px;
+    border: none;
+    border-radius: 10px;
+    transition: all .5s ease-out;
+     box-shadow: 0 6px 6px black;
+     text-align: center;
+}
+
+.hotel-contact .btn:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
